@@ -1,0 +1,37 @@
+{
+    errdata = "\27[01m\27[K20_class_template/main.cpp:\27[m\27[K In function ‘\27[01m\27[Kint main(int, char**)\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:84:58:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kdivision ‘\27[01m\27[Ksizeof (int*) / sizeof (int)\27[m\27[K’ does not compute the number of array elements [\27[01;35m\27[K-Wsizeof-pointer-div\27[m\27[K]\
+   84 |             std::cout << \"t0 size is\" << \27[01;35m\27[Ksizeof(t0.data) / sizeof(*t0.data)\27[m\27[K << std::endl;\
+      |                                          \27[01;35m\27[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~\27[m\27[K\
+20_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>::Tensor4D(const unsigned int*, const T*) [with T = int]\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:80:39:\27[m\27[K   required from here\
+\27[01m\27[K20_class_template/main.cpp:20:54:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kdivision ‘\27[01m\27[Ksizeof (int*) / sizeof (int)\27[m\27[K’ does not compute the number of array elements [\27[01;35m\27[K-Wsizeof-pointer-div\27[m\27[K]\
+   20 |         std::cout << \"data size is \" << \27[01;35m\27[Ksizeof(data) / sizeof(*data)\27[m\27[K << std::endl;\
+      |                                         \27[01;35m\27[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~\27[m\27[K\
+20_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>& Tensor4D<T>::operator+=(const Tensor4D<T>&) [with T = int]\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:82:15:\27[m\27[K   required from here\
+\27[01m\27[K20_class_template/main.cpp:39:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Ksuggest parentheses around assignment used as truth value [\27[01;35m\27[K-Wparentheses\27[m\27[K]\
+   39 |             \27[01;35m\27[Kif\27[m\27[K (broadcast[i] = shape[i] != others.shape[i])\
+      |             \27[01;35m\27[K^~\27[m\27[K\
+20_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>::Tensor4D(const unsigned int*, const T*) [with T = float]\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:113:34:\27[m\27[K   required from here\
+\27[01m\27[K20_class_template/main.cpp:20:54:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kdivision ‘\27[01m\27[Ksizeof (float*) / sizeof (float)\27[m\27[K’ does not compute the number of array elements [\27[01;35m\27[K-Wsizeof-pointer-div\27[m\27[K]\
+   20 |         std::cout << \"data size is \" << \27[01;35m\27[Ksizeof(data) / sizeof(*data)\27[m\27[K << std::endl;\
+      |                                         \27[01;35m\27[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~\27[m\27[K\
+20_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>& Tensor4D<T>::operator+=(const Tensor4D<T>&) [with T = float]\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:115:15:\27[m\27[K   required from here\
+\27[01m\27[K20_class_template/main.cpp:39:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Ksuggest parentheses around assignment used as truth value [\27[01;35m\27[K-Wparentheses\27[m\27[K]\
+   39 |             \27[01;35m\27[Kif\27[m\27[K (broadcast[i] = shape[i] != others.shape[i])\
+      |             \27[01;35m\27[K^~\27[m\27[K\
+20_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>::Tensor4D(const unsigned int*, const T*) [with T = double]\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:135:34:\27[m\27[K   required from here\
+\27[01m\27[K20_class_template/main.cpp:20:54:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kdivision ‘\27[01m\27[Ksizeof (double*) / sizeof (double)\27[m\27[K’ does not compute the number of array elements [\27[01;35m\27[K-Wsizeof-pointer-div\27[m\27[K]\
+   20 |         std::cout << \"data size is \" << \27[01;35m\27[Ksizeof(data) / sizeof(*data)\27[m\27[K << std::endl;\
+      |                                         \27[01;35m\27[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~\27[m\27[K\
+20_class_template/main.cpp: In instantiation of ‘\27[01m\27[KTensor4D<T>& Tensor4D<T>::operator+=(const Tensor4D<T>&) [with T = double]\27[m\27[K’:\
+\27[01m\27[K20_class_template/main.cpp:137:15:\27[m\27[K   required from here\
+\27[01m\27[K20_class_template/main.cpp:39:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Ksuggest parentheses around assignment used as truth value [\27[01;35m\27[K-Wparentheses\27[m\27[K]\
+   39 |             \27[01;35m\27[Kif\27[m\27[K (broadcast[i] = shape[i] != others.shape[i])\
+      |             \27[01;35m\27[K^~\27[m\27[K\
+"
+}

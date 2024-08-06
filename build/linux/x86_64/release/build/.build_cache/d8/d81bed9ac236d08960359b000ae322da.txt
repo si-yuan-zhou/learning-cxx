@@ -1,0 +1,7 @@
+{
+    errdata = "\27[01m\27[K13_class_clone/main.cpp:\27[m\27[K In copy constructor ‘\27[01m\27[KDynFibonacci::DynFibonacci(const DynFibonacci&)\27[m\27[K’:\
+\27[01m\27[K13_class_clone/main.cpp:20:13:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Klabel ‘\27[01m\27[Kstd\27[m\27[K’ defined but not used [\27[01;35m\27[K-Wunused-label\27[m\27[K]\
+   20 |             \27[01;35m\27[Kstd\27[m\27[K:memcpy(cache, other.cache, cached * sizeof(size_t));\
+      |             \27[01;35m\27[K^~~\27[m\27[K\
+"
+}

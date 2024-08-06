@@ -1,0 +1,7 @@
+{
+    errdata = "\27[01m\27[K07_enum&union/main.cpp:\27[m\27[K In function ‘\27[01m\27[KColorEnum convert_by_pun(Color)\27[m\27[K’:\
+\27[01m\27[K07_enum&union/main.cpp:50:16:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[K‘\27[01m\27[Kpun\27[m\27[K’ may be used uninitialized in this function [\27[01;35m\27[K-Wmaybe-uninitialized\27[m\27[K]\
+   50 |     return pun.\27[01;35m\27[Ke\27[m\27[K;\
+      |                \27[01;35m\27[K^\27[m\27[K\
+"
+}
